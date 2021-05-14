@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<git>
+    <!--ssh 配置-->
+    <sshConfig>
+        <!--私钥地址,如果设置为空则会取默认路径 ~/.ssh/id_rsa-->
+        <privateKeyPath></privateKeyPath>
+    </sshConfig>
+    <!--git账户配置，如果远程地址用的是http，需要进行配置-->
+    <accountConfig>
+        <userName></userName>
+        <password></password>
+    </accountConfig>
+    <!--处理分支线程数量,不配置的话默认为2-->
+    <!--<dealBranchThreadCount>2</dealBranchThreadCount>-->
+    <parentPomName>com-petkit-pom</parentPomName>
+    <projects>
+        <project>
+            <!--git项目名称-->
+            <name>items-center</name>
+            <!--git本地项目路径-->
+            <localPath>/Users/xxx/code/items-center</localPath>
+            <!--git项目地址-->
+            <remoteUrl>http://xxx/xxxx/items-center.git</remoteUrl>
+            <!--父pom中的标签key-->
+            <parentPomVersionKey></parentPomVersionKey>
+        </project>
+        <project>
+            <name>operation-management-is</name>
+            <localPath>/Users/xxx/code/operation-management-is</localPath>
+            <remoteUrl>http://xxx/xxxx/operation-management-is.git</remoteUrl>
+            <parentPomVersionKey></parentPomVersionKey>
+        </project>
+    </projects>
+</git>
