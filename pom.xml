@@ -14,8 +14,8 @@
         <slf4j.version>1.7.21</slf4j.version>
         <logback.version>1.1.7</logback.version>
         <lombok.version>1.18.8</lombok.version>
-        <com.thoughtworks.xstream.version>1.4.7</com.thoughtworks.xstream.version>
-        <junit.version>4.11</junit.version>
+        <com.thoughtworks.xstream.version>1.4.16</com.thoughtworks.xstream.version>
+        <junit.version>4.13.1</junit.version>
         <org.apache.maven.version>3.6.0</org.apache.maven.version>
         <fastjson.version>1.2.62</fastjson.version>
     </properties>
@@ -68,7 +68,7 @@
         <dependency>
             <groupId>dom4j</groupId>
             <artifactId>dom4j</artifactId>
-            <version>1.1</version>
+            <version>1.6.1</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
