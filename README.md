@@ -4,7 +4,7 @@ fastgit
 </h1>
 </div>
 
-![Image text](https://z3.ax1x.com/2021/04/26/gS9F0K.png)
+![Image text](https://z3.ax1x.com/2021/05/14/grQH9f.png)
 
 ## 工具简介
 1. 开箱即用，本工具旨在进行快速为多项目创建分支，对项目进行快速迭代功能。
